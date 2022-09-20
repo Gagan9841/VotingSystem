@@ -1,5 +1,5 @@
 <?php
-if(isset($_SESSION['login_id']) && !empty($_SESSION['login_id'])) {
+
 
 $votingId = $_GET['votingId'];
 include "connection.php";
@@ -13,8 +13,5 @@ if(!$res){
 else{
     header('location:voting_list.php?delete=true');
 }
-}
-else {
-    header("location:admin_login.php");
-} 
+ 
 ?>

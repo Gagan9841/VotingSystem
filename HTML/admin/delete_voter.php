@@ -1,5 +1,5 @@
 <?php
-if(isset($_SESSION['login_id']) && !empty($_SESSION['login_id'])) {
+
 
 $college_id = $_GET['College_Id_No'];
 include "connection.php";
@@ -13,8 +13,5 @@ if(!$res){
 else{
     header('location:voters.php?delete=true');
 }
-}
-else {
-    header("location:admin_login.php");
-} 
+ 
 ?>

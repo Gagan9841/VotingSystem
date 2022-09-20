@@ -62,18 +62,17 @@ if(empty($fullname)) {
         exit();
 
     }
-    
 
+    else if($user_cid==$college_id){
+
+        header("Location: ../guest/rgstr.php?error=User already exist");
+
+        exit();
+    }
     else{
         $sql = "INSERT INTO `voter_list` (`Full_name`,  `Gender`, `College_Id_No.`, `password`) VALUES ('$fullname', '$gender', '$college_id','$pw')";
         $res = mysqli_query($conn,$sql);
-        if($user_cid==$college_id){
-
-            header("Location: ../guest/rgstr.php?error=User already exist");
-    
-            exit();
-        }
-        elseif (!$res) {
+        if(!$res) {
             die("Unable to register".mysqli_error($conn));
         }
         else{

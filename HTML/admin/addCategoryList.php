@@ -1,5 +1,5 @@
 <?php
-if(isset($_SESSION['login_id']) && !empty($_SESSION['login_id'])) {
+
 
 $category= $_POST['categoryName'];
 $desc= $_POST['description'];
@@ -14,9 +14,5 @@ else{
     header('location:categoryList.php?success=true');
 }
 
-} 
 
-else {
-    header("location:admin_login.php");
-} 
 ?>  

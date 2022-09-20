@@ -1,7 +1,7 @@
 <?php
 include "connection.php";
 // include "dashboard_ui.php";
-if(isset($_SESSION['login_id']) && !empty($_SESSION['login_id'])) {
+
 
 $can_name= $_POST['cname'];
 $can_faculty= $_POST['cfaculty'];
@@ -34,9 +34,5 @@ else {
     echo "The image failed to move <br><a href='./index.php'>back</a>";
 }
 
-} 
-
-else {
-    header("location:admin_login.php");
-} 
+ 
 ?>

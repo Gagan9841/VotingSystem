@@ -1,5 +1,5 @@
 <?php
-if(isset($_SESSION['login_id']) && !empty($_SESSION['login_id'])) {
+
 
 $name= $_POST['name'];
 $desc= $_POST['description'];
@@ -16,9 +16,5 @@ if(!$res){
 else{
     header('location:voting_list.php?success=true');
 }
-} 
 
-else {
-    header("location:admin_login.php");
-} 
 ?>  

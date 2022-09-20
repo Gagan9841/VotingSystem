@@ -1,5 +1,5 @@
 <?php
-if(isset($_SESSION['login_id']) && !empty($_SESSION['login_id'])) {
+
 
 $can_id = $_GET['c-collegeId'];
 include "connection.php";
@@ -14,8 +14,5 @@ if(!$res){
 else{
     header('location:candidate_list.php?delete=true');
 }
-}
-else {
-    header("location:admin_login.php");
-} 
+
 ?>
