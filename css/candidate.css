@@ -1,0 +1,118 @@
+
+.candidate-container{
+    /* background-color: blue; */
+    width: 97%;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+
+.image-sec{
+    position: relative;
+    width: 25%;
+    float: left;
+    height: 90%;
+    /* background-color: red; */
+    margin: 0.6% 0.6%;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+.description-sec{
+    position: relative;
+    width: 70.5%;
+    height: 90%;
+    background-color: #35353560;
+    float: left;
+    margin: 0.6% 0.6%;
+    border: 3px solid yellow;
+    border-radius: 30px;
+}
+.can-img{
+    position: relative;
+    height: 95%;
+    float: left;
+    top: 0px;
+    margin: 1% 0.7%;
+    width: 45%;
+    border-radius: 50%;
+}
+.can-name{
+    position: relative;
+    top: 35%;
+    letter-spacing: 0.3px;
+    font-size: 17px;
+    color: yellow;
+    text-transform: capitalize;
+}
+.can-heading-container{
+    top: 30px;
+    position: relative;
+    width: 95%;
+    float: left;
+    
+}
+.can-heading{
+    width: 100%;
+    border-bottom: 1px solid black; 
+    display: flex;
+    position: fixed;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22px;
+    z-index:1;
+}
+.can-heading-center{
+    font-size: 40px; 
+    background-color: #353535; 
+    position: fixed;
+    padding: 0 10px;
+    z-index: 1;
+}
+/* .can-desc{
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    color: white;
+} */
+.can-desc p{
+    text-align: justify;
+    width: 98%;
+    margin: 0 auto;
+    position: relative;
+    color: white;
+}
+.can-image-footer{
+    position: relative;
+    left: 15px;
+    padding: 5px;
+    width: 80%;
+    font-size: 11px;
+    margin: 0 auto;
+    display: inline-block;
+}
+.votingList{
+    border: 1px solid white;
+    float: left;
+    background-color: rgb(68, 44, 44);
+    position: relative;
+    color: white;
+    padding: 5px;
+    margin-right: 3px;
+    border-radius: 5px; 
+}
+.category{
+    border: 1px solid rgb(68, 44, 44);
+    float: left;
+    background-color: white;
+    position: relative;
+    color: rgb(68, 44, 44);
+    padding: 5px;
+    border-radius: 5px;
+}
+#can-fade{
+    transition: 300ms;
+}

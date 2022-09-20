@@ -1,0 +1,172 @@
+.voters{
+    width: 80%;
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    top: 60px;
+    left: 270px;
+    z-index: 1;
+    
+}
+.voters-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+    width: 95%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.voters-table thead tr{
+    background-color: yellow;
+    color: rgb(68, 44, 44);
+    text-align: center;
+}
+.voters-table th{
+    font-size: 18px;
+}
+.voters-table td{
+    padding: 5px 5px;
+    text-align: left;
+    /* white-space: nowrap; */
+    font-size: 12px;
+}
+.btn-addnew{
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(68, 44, 44);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-addnew:hover{
+    color: yellow;
+    background-color: rgba(68, 44, 44, 0.809);
+}
+.addnew-btn{
+    position: relative;
+    float:right;
+    padding: 5px 5px;
+    margin: 10px;
+}
+.open-button {
+    cursor: pointer;
+    position: fixed;
+    top: 75px;
+    right: 28px;
+    width: 210px;
+    padding: 10px;
+    z-index: 2;
+    font-size: 20px;
+    background-color: rgb(68, 44, 44);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .open-button:hover{
+      color: yellow;
+      background-color: rgba(68, 44, 44, 0.809);
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+      position: fixed;
+      bottom: 25%;
+      top: 25%;
+      right: 25%;
+      /* border: 3px solid #f1f1f1; */
+      z-index: 9;
+      width: 28%;
+      left: 35%;
+  }
+  .register-pane{
+      border: 2px solid yellow;
+      margin: auto;
+      background-color: rgba(0, 0, 0, 0.36);
+      border-radius: 50px;
+      text-align: center;
+      position: fixed;
+      top: 25%;
+      right: 25%;
+      z-index: 9;
+      width: 28%;
+      left: 35%;
+      display: none;
+      /* transition-duration: 0.5s; */
+  }
+  span{
+      color: yellow;
+      font-size: 15px;
+  }
+  .container{
+      position: relative;
+      z-index:-1;
+      width: 95%;
+      height: 85%;
+      /* background-color: blue; */
+      float: left;
+      margin: 0px 20px;
+      padding: 10px;
+  
+  }
+  .form-group{
+      position: relative;
+  }
+  .form-group a{
+      text-decoration: none;
+  }
+  .form-group input,textarea{
+          text-align: center;
+          display: block;
+          width: 65%;
+          padding: 5px;
+          border: 2px solid rgb(68, 44, 44);
+          margin: 3% auto;
+          font-size: 17px;
+      
+  }
+  .sbutton{
+      color: rgb(68,44,44);
+      border: thin solid ;
+      border-radius: 30px;
+      background: white;
+      font-size: 20px;
+  
+  }
+  .sbutton:hover{
+      background-color: yellow;
+      border: 2px solid yellow;
+      transition-duration: 0.5s;
+      cursor: pointer;
+  }
+  .close-pane{
+    background-color: red;
+    width: 90%;
+    border-radius: 50px;
+}
+.sbutton-cancel{
+    color: red;
+    border: none;
+    /* border-radius: 30px; */
+    background: none;
+    font-size: 20px;
+    float: right;
+    position: relative;
+    top: 10px;
+    left: 19px;
+}
+.sbutton-cancel:hover{
+    color: yellow;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+#description{
+    font-size:16px;
+    font-family: Arimo;
+    border: 1px solid #442C2C;
+    width:66%;
+    height: 100px;
+    position: relative;
+    resize: none;
+}
+  

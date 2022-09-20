@@ -1,0 +1,70 @@
+.login-pane{
+    margin: 0 auto;
+    /* background-color: red; */
+    border: 2px solid yellow;
+    margin: auto;
+    padding: auto;
+    border-radius: 50px;
+    width: 33%;
+    text-align: center
+}
+.form-group a{
+    text-decoration: none;
+}
+.form-group input{
+        text-align: center;
+        display: block;
+        width: 65%;
+        padding: 5px;
+        border: 2px solid rgb(68, 44, 44);
+        margin: 3% auto;
+        font-size: 17px;
+    
+}
+.sbutton{
+    color: rgb(68,44,44);
+    border: thin solid ;
+    border-radius: 30px;
+    cursor: pointer;
+    background: white;
+    font-size: 20px;
+
+}
+.sbutton:hover{
+    background-color: yellow;
+    border: 2px solid yellow;
+    transition-duration: 0.5s;
+}
+.gender-group{
+    display: inline-block;
+    /* background-color: white; */
+    margin-right: 60px;
+    color: white;
+    line-height: 25px;
+}
+.gender-span{
+    color: white;
+    position: relative;
+    top: -25px;
+}
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #442C2C;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #442C2C;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid yellow;
+}

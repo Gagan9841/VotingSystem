@@ -1,0 +1,20 @@
+.register-pane{
+    margin: 0 auto;
+    /* background-color: red; */
+    border: 2px solid yellow;
+    margin: auto;
+    padding: auto;
+    border-radius: 50px;
+    width: 33%;
+    text-align: center;
+}
+span{
+    color: yellow;
+    font-size: 15px;
+}
+.success{
+   color: yellow;
+   display: inline-block;
+   position: relative;
+   margin: 0 auto;
+}

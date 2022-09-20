@@ -1,0 +1,88 @@
+.register-pane{
+    margin: 0 auto;
+    /* background-color: red; */
+    border: 2px solid yellow;
+    margin: auto;
+    padding: auto;
+    border-radius: 50px;
+    width: 33%;
+    text-align: center;
+}
+span{
+    color: yellow;
+    font-size: 15px;
+}
+.success{
+   color: yellow;
+}
+.container{
+    position: relative;
+    z-index:-1;
+    width: 95%;
+    height: 85%;
+    /* background-color: blue; */
+    float: left;
+    margin: 0px 20px;
+    padding: 10px;
+
+}
+.form-group a{
+    text-decoration: none;
+}
+.form-group input{
+        text-align: center;
+        display: block;
+        width: 65%;
+        padding: 5px;
+        border: 2px solid rgb(68, 44, 44);
+        margin: 3% auto;
+        font-size: 17px;
+    
+}
+.sbutton{
+    color: rgb(68,44,44);
+    border: thin solid ;
+    border-radius: 30px;
+    background: white;
+    font-size: 20px;
+
+}
+.sbutton:hover{
+    background-color: yellow;
+    border: 2px solid yellow;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.gender-group{
+    display: inline-block;
+    /* background-color: white; */
+    margin-right: 60px;
+    color: rgb(68, 44, 44);
+    line-height: 25px;
+}
+.gender-span{
+    color: rgb(68, 44, 44);
+    position: relative;
+    top: -25px;
+}
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    background-color: yellow;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #442C2C;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #442C2C;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid yellow;
+}

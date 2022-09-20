@@ -1,0 +1,983 @@
+.register-pane{
+    margin: 0 auto;
+    /* background-color: red; */
+    border: 2px solid yellow;
+    margin: auto;
+    padding: auto;
+    border-radius: 50px;
+    width: 33%;
+    text-align: center;
+}
+span{
+    color: yellow;
+    font-size: 15px;
+}
+.success{
+   color: yellow;
+}
+.container{
+    position: relative;
+    z-index:-1;
+    width: 95%;
+    height: 85%;
+    /* background-color: blue; */
+    float: left;
+    margin: 0px 20px;
+    padding: 10px;
+
+}
+.form-group a{
+    text-decoration: none;
+}
+.form-group input{
+        text-align: center;
+        display: block;
+        width: 65%;
+        padding: 5px;
+        border: 2px solid rgb(68, 44, 44);
+        margin: 3% auto;
+        font-size: 17px;
+    
+}
+.sbutton{
+    color: rgb(68,44,44);
+    border: thin solid ;
+    border-radius: 30px;
+    background: white;
+    font-size: 20px;
+
+}
+.sbutton:hover{
+    background-color: yellow;
+    border: 2px solid yellow;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.gender-group{
+    display: inline-block;
+    /* background-color: white; */
+    margin-right: 60px;
+    color: rgb(68, 44, 44);
+    line-height: 25px;
+}
+.gender-span{
+    color: rgb(68, 44, 44);
+    position: relative;
+    top: -25px;
+}
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    background-color: yellow;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #442C2C;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #442C2C;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid yellow;
+}
+#description{
+    font-size:16px;
+    font-family: Arimo;
+    border: 1px solid #442C2C;
+    width:66%;
+    height: 100px;
+    position: relative;
+    resize: none;
+}
+
+.candidate-container{
+    /* background-color: blue; */
+    width: 97%;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.image-sec{
+    position: relative;
+    width: 25%;
+    float: left;
+    height: 90%;
+    /* background-color: red; */
+    margin: 0.6% 0.6%;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+.description-sec{
+    position: relative;
+    width: 70.5%;
+    height: 90%;
+    background-color: #35353560;
+    float: left;
+    margin: 0.6% 0.6%;
+    border: 3px solid yellow;
+    border-radius: 30px;
+}
+.can-img{
+    position: relative;
+    height: 95%;
+    float: left;
+    top: 0px;
+    margin: 1% 0.7%;
+    width: 45%;
+    border-radius: 30px;
+}
+.can-name{
+    position: relative;
+    top: 35%;
+    color: yellow;
+}
+.can-desc{
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arimo;
+}
+.top-navbar{
+    position: relative;
+    background-color: rgb(68, 44, 44);
+    height: 60px;
+    width: 100%;
+    }
+.nav-content ul{
+    margin: auto;
+    list-style: none;
+    float: left;
+}
+.nav-content li{
+    float: left;
+    margin-left: 20px
+}
+.nav-center-content li a{
+    margin-left: 70px;
+    line-height: 1.5;
+    font-family: Arimo;
+    font-size: 30px;
+    text-decoration: none;
+    color: yellow;
+    font-weight: 350;
+    padding: 10px 15px;
+}
+.nav-center-content li a:hover{
+    color: white;
+    transition-duration: 0.5s;
+}
+.nav-right-content{
+    width: 7%;
+    position: relative;
+    display: inline-block;
+    top:-1px;
+    background-color: red;
+}
+.nav-right-content ul{
+    margin: auto;
+    float: right;
+    position: relative;
+    right: 20px;
+}
+.nav-right-content ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arimo;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 150;
+}
+.nav-right-content ul li a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.nav-left-content{
+    display: flex;
+    float: left;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px
+}
+.logo,img{
+    position: relative;
+    width: 70px;
+    height: 60px;
+    float: left;
+    overflow: visible;
+    z-index:1;
+}
+.nav-center-content{
+    width: 80%;
+    position: relative;
+    height: 55px;
+    margin: 3px auto;
+    display: inline-block;
+    color: yellow;
+}
+
+.left-panel{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: lighter;
+    letter-spacing: .5px;
+    padding-top: 50px;
+    min-height: 100%;
+    width: 160px;
+    text-transform: uppercase;
+    z-index: 810;
+     font-weight: lighter;
+    background-color: rgb(68, 44, 44);
+}
+.left-panel-content{
+    width: 90%;
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    text-align: center;
+}
+.left-panel-content ul li{
+    line-height: 2;
+    padding: 2px;
+    border-bottom: 1px solid yellow;
+    font-size: 20px;
+}
+.left-panel-content ul li a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.left-panel-content ul li:hover, .left-panel-content ul li:active {
+    background-color: #241919;
+    transition-duration: 0.5s;
+}
+/* .left-panel-content ul li:active{
+    background-color: #241919;
+} */
+.left-panel-content ul li a:hover {
+    color: yellow;
+    transition-duration: 0.5s;
+}
+.left-panel-content ul li a:active{
+    color: yellow;
+}
+
+/* .left-panel-content ul li a:active{
+    background-color: #241919;
+    color:yellow;
+} */
+.container-main{
+    /* background-color: red; */
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;   
+    z-index: -1;
+}
+.container-content{
+    width: 90%;
+    padding: 30px;
+    background-color: white;
+    position: relative;
+    left: 222.5px;
+}
+.content{
+    /* background-color: pink; */
+    position: relative;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+}
+.main-content{
+    background-color: #442c2c;
+    position: relative;
+    height: 100%;
+    padding: 5px;
+    text-align: center;
+    width: 200px;
+    border-radius: 20px;
+    
+}
+.main-content span{
+    font-size: 20px;
+    position: relative; 
+    color: yellow;
+    top: 10px; 
+    text-transform: uppercase;
+
+}
+.total_voter{
+    /* background-color: pink; */
+    color: white;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: bold;
+}
+.success,.delete{
+    z-index: 4;
+    text-align: center;
+    display: none;
+    background-color: yellow;
+    color: black;
+    height: 30px;
+    font-size: 25px;
+    word-spacing: 5px;
+    font-weight: bold;
+}
+#del-btn{
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+#del-btn:hover{
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: red;
+}
+body{
+    background-image:url(../image/bg.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: 'Arimo';
+    color: rgb(68, 44, 44);
+    
+}
+.header-sec{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+}
+.left-header{
+    background-color: red;
+    float: left;
+    width: 25%;
+}
+.right-header{
+    float: right;
+    content: url(../image/nepal_flag.gif);
+    height: 90px;
+}
+.center-header{
+    float: left;
+    position: relative;
+    left: 150px;
+    content: url(../img/pec.jpg);
+    border: 1px solid yellow;
+    border-radius: 10% 10% 10% 10% / 4% 4% 4% 4%;
+}
+.logo,img{
+    position: relative;
+    top: -30px;
+    width: 170px;
+    height: 160px;
+    float: left;
+}
+.navigation{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(68, 44, 44);
+    height: 45px;
+    top: 120px;
+    border-radius: 30px;
+    }
+.nav-content ul{
+    margin: auto;
+    list-style: none;
+    float: left;
+}
+.nav-content li{
+    float: left;
+    margin-left: 20px
+}
+.nav-content li a{
+    margin-left: 70px;
+    margin-right: 5px;
+    line-height: 45px;
+    font-weight: 400;
+    font-family: Arimo;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    font-weight: 350;
+    padding: 10px 15px;
+    /* color: yellow;
+    border: thin solid yellow;
+    border-radius: 30px; */
+}
+.nav-content li a:hover{
+    color: yellow;
+    transition-duration: 0.5s;
+}
+.nav-right-content ul{
+    top: 3px;
+    list-style: none;
+    margin: auto;
+    float: right;
+    position: relative;
+    right: 20px;
+}
+.nav-right-content ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arimo;
+    font-size: 15px;
+    font-weight: 150;
+    line-height: 10px;
+}
+.nav-right-content ul li a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.container{
+    position: relative;
+    z-index:-1;
+    width: 95%;
+    height: 85%;
+    /* background-color: blue; */
+    float: left;
+    margin: 0px 20px;
+    padding: 10px;
+    top: 200px;
+}
+.container-right-pane{
+    /* background-color: rgb(128, 128, 0); */
+    width: 40%;
+    height: 300px;
+    float: right;
+}
+.election-heading{
+    /* background-color: black; */
+    display: inline-block;
+    margin: 5px 85px;
+}
+.election-heading span{
+    /* display: inline-block; */
+    width: 75%;
+    height: 100%;
+    text-align: center;
+    /* background-color: yellow; */
+    margin: 0px auto;
+    text-transform: uppercase;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:50px;
+    font-weight:bold;
+}
+span.election{
+    color: rgb(68, 44, 44);
+}
+span.day{
+    width: 25%;
+    color: yellow;
+}
+
+.election-content{
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+.election-content p{
+    text-align: justify;
+    font-size: 17px;
+    color: white;
+}
+.faq-heading{
+    border-bottom: rgb(68,44,44);
+    padding: 20px 60px;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+  color: yellow;
+  
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: white;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%; 
+   padding: auto;
+   
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+.faq-body:hover{
+    display: block;
+}
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: yellow;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+.login-pane{
+    margin: 0 auto;
+    /* background-color: red; */
+    border: 2px solid yellow;
+    margin: auto;
+    padding: auto;
+    border-radius: 50px;
+    width: 33%;
+    text-align: center
+}
+.form-group a{
+    text-decoration: none;
+}
+.form-group input{
+        text-align: center;
+        display: block;
+        width: 65%;
+        padding: 5px;
+        border: 2px solid rgb(68, 44, 44);
+        margin: 3% auto;
+        font-size: 17px;
+    
+}
+.sbutton{
+    color: rgb(68,44,44);
+    border: thin solid ;
+    border-radius: 30px;
+    cursor: pointer;
+    background: white;
+    font-size: 20px;
+
+}
+.sbutton:hover{
+    background-color: yellow;
+    border: 2px solid yellow;
+    transition-duration: 0.5s;
+}
+.gender-group{
+    display: inline-block;
+    /* background-color: white; */
+    margin-right: 60px;
+    color: white;
+    line-height: 25px;
+}
+.gender-span{
+    color: white;
+    position: relative;
+    top: -25px;
+}
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #442C2C;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #442C2C;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid yellow;
+}
+.voters{
+    width: 80%;
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    top: 60px;
+    left: 270px;
+    z-index: 1;
+    
+}
+.voters-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+    width: 95%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.voters-table thead tr{
+    background-color: yellow;
+    color: rgb(68, 44, 44);
+    text-align: center;
+}
+.voters-table th{
+    font-size: 18px;
+}
+.voters-table td{
+    padding: 10px 5px;
+    text-align: left;
+    white-space: nowrap;
+    font-size: 12px;
+}
+.btn-addnew{
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(68, 44, 44);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-addnew:hover{
+    color: yellow;
+    background-color: rgba(68, 44, 44, 0.809);
+}
+.addnew-btn{
+    position: relative;
+    float:right;
+    padding: 5px 5px;
+    margin: 10px;
+}
+.open-button {
+    cursor: pointer;
+    position: fixed;
+    top: 75px;
+    right: 28px;
+    width: 210px;
+    padding: 10px;
+    z-index: 2;
+    font-size: 20px;
+    background-color: rgb(68, 44, 44);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .open-button:hover{
+      color: yellow;
+      background-color: rgba(68, 44, 44, 0.809);
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+      position: fixed;
+      bottom: 25%;
+      top: 25%;
+      right: 25%;
+      /* border: 3px solid #f1f1f1; */
+      z-index: 9;
+      width: 28%;
+      left: 35%;
+  }
+  .register-pane{
+      border: 2px solid yellow;
+      margin: auto;
+      background-color: rgba(0, 0, 0, 0.36);
+      border-radius: 50px;
+      text-align: center;
+      position: fixed;
+      top: 25%;
+      right: 25%;
+      z-index: 9;
+      width: 28%;
+      left: 35%;
+      display: none;
+      /* transition-duration: 0.5s; */
+  }
+  span{
+      color: yellow;
+      font-size: 15px;
+  }
+  .container{
+      position: relative;
+      z-index:-1;
+      width: 95%;
+      height: 85%;
+      /* background-color: blue; */
+      float: left;
+      margin: 0px 20px;
+      padding: 10px;
+  
+  }
+  .form-group{
+      position: relative;
+  }
+  .form-group a{
+      text-decoration: none;
+  }
+  .form-group input,textarea{
+          text-align: center;
+          display: block;
+          width: 65%;
+          padding: 5px;
+          border: 2px solid rgb(68, 44, 44);
+          margin: 3% auto;
+          font-size: 17px;
+      
+  }
+  .sbutton{
+      color: rgb(68,44,44);
+      border: thin solid ;
+      border-radius: 30px;
+      background: white;
+      font-size: 20px;
+  
+  }
+  .sbutton:hover{
+      background-color: yellow;
+      border: 2px solid yellow;
+      transition-duration: 0.5s;
+      cursor: pointer;
+  }
+  .close-pane{
+    background-color: red;
+    width: 90%;
+    border-radius: 50px;
+}
+.sbutton-cancel{
+    color: red;
+    border: none;
+    /* border-radius: 30px; */
+    background: none;
+    font-size: 20px;
+    float: right;
+    position: relative;
+    top: 10px;
+    left: 19px;
+}
+.sbutton-cancel:hover{
+    color: yellow;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+#description{
+    font-size:16px;
+    font-family: Arimo;
+    border: 1px solid #442C2C;
+    width:66%;
+    height: 100px;
+    position: relative;
+    resize: none;
+}
+.voters{
+    width: 80%;
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    top: 60px;
+    left: 270px;
+    z-index: 1;
+}
+.voters-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+    width: 95%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.voters-table thead tr{
+    background-color: yellow;
+    color: rgb(68, 44, 44);
+    text-align: center;
+}
+.voters-table th{
+    font-size: 18px;
+}
+.voters-table td{
+    padding: 12px 15px;
+    text-align: left;
+    white-space: nowrap;
+}
+.btn-addnew{
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(68, 44, 44);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-addnew:hover{
+    color: yellow;
+    background-color: rgba(68, 44, 44, 0.809);
+}
+.addnew-btn{
+    position: relative;
+    float:right;
+    padding: 5px 5px;
+    margin: 10px;
+}
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  cursor: pointer;
+  position: fixed;
+  top: 75px;
+  right: 28px;
+  width: 210px;
+  padding: 10px;
+  z-index: 2;
+  font-size: 15px;
+  background-color: rgb(68, 44, 44);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.open-button:hover{
+    color: yellow;
+    background-color: rgba(68, 44, 44, 0.809);
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+    position: fixed;
+    bottom: 25%;
+    top: 25%;
+    right: 25%;
+    /* border: 3px solid #f1f1f1; */
+    z-index: 9;
+    width: 28%;
+    left: 35%;
+}
+.register-pane{
+    border: 2px solid yellow;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.36);
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+    /* top: 41%; */
+    /* right: 25%; */
+    z-index: 9;
+    width: 67%;
+    /* left: 35%; */
+    display: none;
+    transition-duration: 0.5s;
+}
+span{
+    color: yellow;
+    font-size: 15px;
+}
+.container{
+    position: relative;
+    z-index:-1;
+    width: 95%;
+    height: 85%;
+    /* background-color: blue; */
+    float: left;
+    margin: 0px 20px;
+    padding: 10px;
+
+}
+.form-group{
+    position: relative;
+}
+.form-group a{
+    text-decoration: none;
+}
+.form-group input,textarea{
+        text-align: center;
+        /* display: block; */
+        /* width: 65%; */
+        padding: 5px;
+        border: 2px solid rgb(68, 44, 44);
+        margin: 3% auto;
+        font-size: 17px;
+    
+}
+.sbutton{
+    color: rgb(68,44,44);
+    border: thin solid ;
+    border-radius: 30px;
+    background: white;
+    font-size: 20px;
+
+}
+.sbutton:hover{
+    background-color: yellow;
+    border: 2px solid yellow;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+#description{
+    font-size:16px;
+    font-family: Arimo;
+    border: 1px solid #442C2C;
+    width:66%;
+    height: 100px;
+    position: relative;
+    resize: none;
+}
+.close-pane{
+    background-color: red;
+    width: 90%;
+    border-radius: 50px;
+}
+.sbutton-cancel{
+    color: red;
+    border: none;
+    /* border-radius: 30px; */
+    background: none;
+    font-size: 20px;
+    float: right;
+    position: relative;
+    top: 10px;
+    left: 19px;
+}
+.sbutton-cancel:hover{
+    color: yellow;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.select_votingList{
+    width: 170px;
+    height:35px;
+    font-size: 14px;
+    padding: 5px;
+    border-bottom: 5px;
+    margin:1% auto;
+}
+.select_votingList option selected::after{
+    border-bottom: 10px;
+}
+ 

@@ -1,0 +1,135 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arimo", sans-serif;
+  background: rgb(149 148 153);
+}
+.election-heading{
+    /* background-color: black; */
+    display: inline-block;
+    margin: 5px 85px;
+}
+.election-heading span{
+    /* display: inline-block; */
+    width: 75%;
+    height: 100%;
+    text-align: center;
+    /* background-color: yellow; */
+    margin: 0px auto;
+    text-transform: uppercase;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:50px;
+    font-weight:bold;
+}
+span.election{
+    color: rgb(68, 44, 44);
+    margin-right: 10px;
+}
+span.day{
+    width: 25%;
+    color: yellow;
+}
+
+.election-content{
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+.election-content p{
+    text-align: justify;
+    font-size: 17px;
+    color: white;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.error {
+  background: #F2DEDE;
+  color: #0c0101;
+  padding: 10px; 
+  width: 95%;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+.flex-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+
+.name-content .logo {
+  font-size: 3.5rem;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 530px;
+  height: 30%;
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 10%), 0 10px 20px rgb(0 0 0 / 10%);
+}
+
+form input {
+  outline: none;
+  padding: 0.8rem 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+form input:focus {
+  border: 1.8px solid yellow;
+}
+
+form .login {
+  outline: none;
+  border: none;
+  background: #442c2c;
+  padding: 0.8rem 1rem;
+  border-radius: 0.4rem;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+form .login:hover {
+  background: #282020;
+  cursor: pointer;
+}
+
+
+form hr {
+  background: #f7f7f7;
+  margin: 1rem;
+}
+
+form .user-login {
+  outline: none;
+  border: none;
+  background: yellow;
+  padding: 0.8rem 1rem;
+  border-radius: 0.4rem;
+  font-size: 1.1rem;
+  color: #442c2c;
+  width: 75%;
+  margin: 0 auto;
+}
+
+form .user-login:hover {
+  background: rgb(192, 192, 61);
+  cursor: pointer;
+}
+
